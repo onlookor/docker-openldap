@@ -1,6 +1,6 @@
-# Use osixia/light-baseimage
-# sources: https://github.com/osixia/docker-light-baseimage
-FROM osixia/light-baseimage:1.3.2
+# Use onlookor/light-baseimage
+# sources: https://github.com/onlookor/docker-light-baseimage
+FROM onlookor/light-baseimage-debian:0.1.0
 
 ARG OPENLDAP_PACKAGE_VERSION=2.4.57
 
